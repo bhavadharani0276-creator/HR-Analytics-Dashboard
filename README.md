@@ -16,6 +16,10 @@ An interactive HR analytics dashboard designed to analyze employee data, underst
 - Performance and workforce diversity insights
 - Interactive filters and visualizations
 
+## Dashboard Preview
+
+![HR Analytics Dashboard](Dashboard_preview)
+
 ## Project File
 Download `HR_Analytics_Dashboard.pbix` from this repository and open it using Microsoft Power BI Desktop.
 
