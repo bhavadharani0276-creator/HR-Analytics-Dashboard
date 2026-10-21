@@ -7,9 +7,10 @@ An interactive HR analytics dashboard designed to analyze employee data, underst
 
 ### Dataset
 - **Dataset:** IBM HR Analytics Employee Attrition & Performance
-- **Records:** Approximately 1,470 employee records in the commonly used dataset version
+- **Original Dataset Size:** Approximately 1,470 employee records
+- **Final Dataset Size:** 699 employee records after data preparation
 - **Domain:** Human Resources Analytics
-- **Objective:** Analyze employee attrition and explore how workforce characteristics relate to employee retention.
+- **Objective:** Analyze employee attrition patterns and explore workforce characteristics associated with employee retention.
 
 ### Data Preparation and Analysis
 1. **Data inspection:** Reviewed employee attributes, data types, and data consistency.
@@ -25,9 +26,10 @@ An interactive HR analytics dashboard designed to analyze employee data, underst
 - **Diversity Analysis:** Workforce composition across available demographic categories.
 
 ### Tools Used
-- Power BI — Interactive dashboards and data visualization.
-- SQL — Data querying and aggregation, if used in this project.
-- Python — Data cleaning and exploratory analysis, if used in this project.
+
+- **Power BI:** Built interactive dashboards, KPI cards, charts, and filters to analyze employee attrition and workforce trends.
+- **SQL:** Queried and aggregated employee data to examine attrition patterns across departments, salary groups, job roles, and tenure.
+- **Python:** Performed data cleaning and exploratory data analysis to prepare employee data and identify workforce patterns.
 
 ## Key Features
 - Employee overview and KPI tracking
@@ -42,24 +44,20 @@ An interactive HR analytics dashboard designed to analyze employee data, underst
 
 ## Key Insights and Business Recommendations
 
-### Key Findings
+### Key Insights
 
-1. **Job Role:** Sales Representatives have the highest displayed attrition rate, at approximately 40%, highlighting a potential role-specific retention challenge.
-
-2. **Monthly Income:** Employees in the Low income band show approximately 30% attrition, compared with around 10–12% in the other income bands.
-
-3. **Overtime:** Employees working overtime show approximately 29–30% attrition, compared with around 12–13% among employees not working overtime.
-
-4. **Department:** Sales has the highest displayed departmental attrition rate at approximately 22%, followed by Human Resources at around 19% and Research & Development at around 15%.
-
-5. **Employee Tenure:** Attrition generally declines across many of the longer-tenure groups, suggesting that early employee retention deserves further investigation.
+- **Job Role:** Identified job roles with comparatively high employee attrition.
+- **Monthly Income:** Examined the relationship between income groups and employee attrition.
+- **Overtime:** Compared attrition rates between employees who work overtime and those who do not.
+- **Department:** Analyzed attrition patterns across departments.
+- **Employee Tenure:** Explored how attrition varies with years at the company.
 
 ### Business Recommendations
 
-- Investigate retention challenges among Sales Representatives and within the Sales department.
-- Review workload distribution and overtime patterns to identify potential employee retention risks.
-- Examine compensation, career progression, and promotion opportunities across employee groups.
-- Strengthen onboarding and early-career support to help improve employee retention.
+- Review employee retention strategies for job roles with higher attrition.
+- Evaluate workload and overtime patterns.
+- Examine compensation, career growth, and employee engagement.
+- Strengthen onboarding and retention initiatives where the data indicates a need.
 
 ## Project File
 Download `HR_Analytics_Dashboard.pbix` from this repository and open it using Microsoft Power BI Desktop.
